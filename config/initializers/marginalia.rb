@@ -1,1 +1,1 @@
-Marginalia.application_name = "JUMPSTART"
+Marginalia.application_name = "TICKETY"

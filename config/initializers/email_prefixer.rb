@@ -1,3 +1,3 @@
 EmailPrefixer.configure do |config|
-  config.stage_name = "JUMPSTART"
+  config.stage_name = "TICKETY"
 end

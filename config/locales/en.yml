@@ -38,7 +38,7 @@ en:
         subject: "[Tickety] Your receipt"
       upcoming_payment_notification:
         subject: "[Tickety] Tickety is about to charge for your subscription"
-      welcome_to_jumpstart:
+      welcome_to_tickety:
         subject: Welcome to Tickety!
 
   shared:

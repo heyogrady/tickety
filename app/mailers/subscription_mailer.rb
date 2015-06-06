@@ -1,11 +1,11 @@
 class SubscriptionMailer < BaseMailer
 
-  def welcome_to_jumpstart(user)
+  def welcome_to_tickety(user)
     @user = user
 
     mail(
       to: @user.email,
-      subject: t("mailers.subscription.welcome_to_jumpstart")
+      subject: t("mailers.subscription.welcome_to_tickety")
     )
   end
 

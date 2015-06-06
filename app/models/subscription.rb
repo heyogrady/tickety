@@ -77,7 +77,7 @@ class Subscription < ActiveRecord::Base
   end
 
   def deliver_welcome_email
-    SubscriptionMailer.welcome_to_jumpstart(user).deliver_now
+    SubscriptionMailer.welcome_to_tickety(user).deliver_now
   end
 
   def has_access_to?(feature)
