@@ -17,9 +17,9 @@ Ideas
 * Police department info, staffing, etc
 
 
-[![Circle CI](https://circleci.com/gh/heyogrady/tickety/tree/master.svg?style=svg)](https://circleci.com/gh/heyogrady/jumpstart/tree/master)
+[![Circle CI](https://circleci.com/gh/heyogrady/tickety/tree/master.svg?style=svg)](https://circleci.com/gh/heyogrady/tickety/tree/master)
 
-[![Code Climate](https://codeclimate.com/github/heyogrady/tickety/badges/gpa.svg)](https://codeclimate.com/github/heyogrady/jumpstart)
+[![Code Climate](https://codeclimate.com/github/heyogrady/tickety/badges/gpa.svg)](https://codeclimate.com/github/heyogrady/tickety)
 
-[![Coverage Status](https://coveralls.io/repos/heyogrady/tickety/badge.svg)](https://coveralls.io/r/heyogrady/jumpstart)
+[![Coverage Status](https://coveralls.io/repos/heyogrady/tickety/badge.svg)](https://coveralls.io/r/heyogrady/tickety)
 
