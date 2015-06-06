@@ -24,8 +24,8 @@ else
 
     config.fog_credentials = {
       provider: "AWS",
-      aws_access_key_id: Rails.application.secrets.aws_s3["aws_access_key_id"],
-      aws_secret_access_key: Rails.application.secrets.aws_s3["aws_secret_access_key"],
+      aws_access_key_id: "abcd",
+      aws_secret_access_key: "abcd"
     }
 
     config.fog_credentials[:region] = "us-west-1" if Rails.env.staging?
