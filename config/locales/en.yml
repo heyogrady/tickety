@@ -26,24 +26,24 @@ en:
       already_subscribed: You are already subscribed. You can change your plan.
       plan_not_found: We have a new subscription plan for you.
   layouts:
-    app_name: "Jumpstart"
+    app_name: "Tickety"
     meta_description: "A Rails starter template to get that prototype up and running faster."
   line_item:
-    canceled_description: (Canceled) Subscription to Jumpstart
+    canceled_description: (Canceled) Subscription to Tickety
     plan_description: Subscription to %{plan_name}
 
   mailers:
     subscription:
       subscription_receipt:
-        subject: "[Jumpstart] Your receipt"
+        subject: "[Tickety] Your receipt"
       upcoming_payment_notification:
-        subject: "[Jumpstart] Jumpstart is about to charge for your subscription"
+        subject: "[Tickety] Tickety is about to charge for your subscription"
       welcome_to_jumpstart:
-        subject: Welcome to Jumpstart!
+        subject: Welcome to Tickety!
 
   shared:
     subscription:
-      name: Jumpstart
+      name: Tickety
 
   subscriptions:
     accept_discounted_annual_subscription: Yes! I want to save $$$ and keep going
@@ -67,4 +67,4 @@ en:
       update:
         success: You have successfully updated your subscription credit card information.
     reason: Why have you decided to leave?
-    reason_explanation: This information will help us make Jumpstart better for future members.
+    reason_explanation: This information will help us make Tickety better for future members.

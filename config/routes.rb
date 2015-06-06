@@ -10,7 +10,7 @@ class ActionDispatch::Routing::Mapper
 
 end
 
-Jumpstart::Application.routes.draw do
+Tickety::Application.routes.draw do
 
   draw :devise
 

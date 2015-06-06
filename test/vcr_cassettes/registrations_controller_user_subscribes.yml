@@ -265,8 +265,8 @@ http_interactions:
             "interval_count": 1,
             "trial_period_days": 30,
             "metadata": {},
-            "statement_descriptor": "Jumpstart - Standard",
-            "statement_description": "Jumpstart - Standard"
+            "statement_descriptor": "Tickety - Standard",
+            "statement_description": "Tickety - Standard"
           },
           "object": "subscription",
           "start": 1432827110,
@@ -380,8 +380,8 @@ http_interactions:
                   "interval_count": 1,
                   "trial_period_days": 30,
                   "metadata": {},
-                  "statement_descriptor": "Jumpstart - Standard",
-                  "statement_description": "Jumpstart - Standard"
+                  "statement_descriptor": "Tickety - Standard",
+                  "statement_description": "Tickety - Standard"
                 },
                 "description": null,
                 "discountable": true,

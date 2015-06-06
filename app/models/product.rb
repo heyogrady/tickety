@@ -45,7 +45,7 @@ class Product < ActiveRecord::Base
   end
 
   def title
-    "#{name}: a #{offering_type.humanize.downcase} by Jumpstart"
+    "#{name}: a #{offering_type.humanize.downcase} by Tickety"
   end
 
   def offering_type

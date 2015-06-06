@@ -108,7 +108,7 @@ end
 def create_team_plan
   create_plan(
     sku: "team_plan",
-    name: "Jumpstart for teams",
+    name: "Tickety for teams",
     price_in_dollars: 89,
     short_description: "A great subscription.",
     description: "A long description.",

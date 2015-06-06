@@ -7,7 +7,7 @@ require 'marginalia/railtie'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module Jumpstart
+module Tickety
 
   class Application < Rails::Application
 

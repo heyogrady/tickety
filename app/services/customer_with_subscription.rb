@@ -17,7 +17,7 @@ class CustomerWithSubscription
   def to_s
     <<-EOS.squish
     Customer #{stripe_customer["id"]} has subscription #{stripe_plan_id} in
-    Stripe, and #{plan_sku} in Jumpstart
+    Stripe, and #{plan_sku} in Tickety
     EOS
   end
 
