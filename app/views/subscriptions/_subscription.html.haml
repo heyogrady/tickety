@@ -1,0 +1,38 @@
+%li.subscription
+  - if subscription.active?
+    %p
+      %strong= subscription.plan.name
+      %br
+      Active since
+      = subscription.created_at.to_s(:simple)
+    - if !subscription.card_last_four_digits.blank?
+      %p
+        Card type:
+        = subscription.card_type
+        %br
+        Last four:
+        = subscription.card_last_four_digits
+        %br
+        Expires:
+        = subscription.card_expires_on
+        %br
+        = link_to("Update card", new_credit_card_path)
+    - else
+      %p
+        = link_to("Add credit card", new_credit_card_path)
+
+    - if subscription.trial_ends_at
+      %p
+        Trial ends:
+        = subscription.trial_ends_at.to_date.to_s(:simple)
+      
+    - if subscription.scheduled_for_cancellation?
+      %p
+        = t("subscriptions.cancellation_scheduled_on", date: subscription.scheduled_for_cancellation_on.to_s(:simple))
+  - else
+    %p 
+      Cancelled on
+      = subscription.deactivated_on.to_s(:simple)
+
+  = render("subscriptions/management", subscription: subscription)
+

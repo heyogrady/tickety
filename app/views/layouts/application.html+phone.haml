@@ -1,0 +1,16 @@
+!!!
+%html{lang: "en"}
+  %head{prefix: "og: http://ogp.me/ns#"}
+    = render("application/head_contents_phone")
+  %body{class: "#{@layout_carrier.class_for_body} #{body_class} #{yield (:additional_body_classes)}"}
+    = render("shared/environment_banner")
+    = render("shared/navigation/navbar")
+    .container
+      .row
+        .col-sm-12
+          = render 'shared/bootstrap_flash'
+          = yield
+    = yield(:outside)
+    = render("shared/footer_phone")
+    = render("shared/javascript_phone")
+    

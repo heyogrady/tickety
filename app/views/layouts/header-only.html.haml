@@ -1,0 +1,15 @@
+!!!
+%html{lang: "en"}
+  %head{prefix: "og: http://ogp.me/ns#"}
+    = render("application/head_contents")
+  %body{class: "#{body_class} #{yield (:additional_body_classes)}"}
+    = render("shared/environment_banner")
+    = render("shared/navigation/navbar")
+    .container.page
+      .row
+        .col-sm-12
+          = render("shared/bootstrap_flash")
+          = yield
+    = yield(:outside)
+    = render("shared/footer")
+    = render("shared/javascript")
