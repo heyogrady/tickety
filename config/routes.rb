@@ -41,7 +41,7 @@ Tickety::Application.routes.draw do
   draw :api
   draw :stripe
 
-  root "home#show"
+  root "pages#home"
 
   resource :credit_card, only: [:new, :update]
 
